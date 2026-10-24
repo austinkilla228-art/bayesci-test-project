@@ -23,7 +23,7 @@ jobs:
           persist-credentials: false
 
       - name: Run BayesCI
-        uses: austinkilla228-art/BayesCI@main1.0.0
+        uses: austinkilla228-art/BayesCI@v1.0.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
